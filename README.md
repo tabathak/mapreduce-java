@@ -1,6 +1,3 @@
-default-cr2nesy63suinl6pmjmzicbv
-
-
 # **Tecnologias Avançadas - Exercício de MapReduce**
 Trabalho da discilina "Tecnologias Avançadas" parte do curso de pós graduação em "MBA em Ciências de Dados e Big Data Analytics" da Universidade Estácio
 
@@ -29,7 +26,7 @@ javac 1.8.0_265
 ```
 
 **2) Adicione o usuário para ser usado no ambiente Hadoop:**
-- `tabathakwk@hadoop-instance:~$  sudo adduser hadoop; passwd hadoop (aqui, configure uma senha para o usuário)`
+- `tabathakwk@hadoop-instance:~$  sudo adduser hadoop; passwd hadoop` (aqui, configure uma senha para o usuário)
 - `tabathakwk@hadoop-instance:~$  su hadoop`
 
 **3) Instalação do Hadoop no ambiente:**
@@ -50,8 +47,9 @@ javac 1.8.0_265
 - `hadoop@hadoop-instance:~$ ./hadoop-3.2.1/sbin/start-yarn.sh` # inicia os recursos yarn e o nodemgr
 - para validar que os serviços subiram corretamente, rode o comando "`jps`" - o resultado deve ser semelhante a:
 
-**hadoop@hadoop-instance:~$ jps**
 ```
+hadoop@hadoop-instance:~$ jps
+
 9729 ResourceManager
 9477 SecondaryNameNode
 9909 NodeManager
